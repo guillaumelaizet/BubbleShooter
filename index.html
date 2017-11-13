@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/game.css">
+  <title>Bubble Shooter</title>
+</head>
+
+<body>
+  <header>
+    <h1>Bubble One Piece</h1>
+  </header>
+  <div id="lien">
+    <div id="imageLienCv">
+      <a/ href="src/CVDIWJS06.pdf" target="blank"><img src="./src/perso.png" title="Personnage luffy Cv"></a>
+    </div>
+    <div id="cv"><a href="src/CVDIWJS06.pdf" title="Lien Cv" target="blank">Cv</a></div>
+    <div id="linkedin"><a href="https://www.linkedin.com/in/guillaume-laizet?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BaWxhXroVSiW6lI3K31OjoA%3D%3D" title="Lien Linkedin" target="blank">Linkedin</a></div>
+    <div id="imageLienLinkedin">
+      <a/ href="https://www.linkedin.com/in/guillaume-laizet?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BaWxhXroVSiW6lI3K31OjoA%3D%3D" title="Lien Linkedin" target="blank"><img src="./src/perso2.png" title="Personnage zorro Linkedin"></a>
+    </div>
+  </div>
+  <div id="Experience">
+    <h3 class="titre" id="experienceTitre">EXPERIENCES</h3>
+    <div><img src="./src/wanted_0.png" alt="wanted_0" id="wanted_0">
+      <p class="text" id="text_wanted_0">2016 Assistant Qualité des Données OPEN (SSII)</p>
+    </div>
+    <div><img src="./src/wanted_1.png" alt="wanted_1" id="wanted_1">
+      <p class="text" id="text_wanted_1">2015 Responsable Stand Fruits et Légumes Biologiques E.Leclerc </p>
+    </div>
+    <div><img src="./src/wanted_2.png" alt="wanted_2" id="wanted_2">
+      <p class="text" id="text_wanted_2">2010 Assistant Communication SNCF (Gare du Nord)</p>
+    </div>
+  </div>
+
+  <div id="centerPage">
+    <div id="page">
+      <div id="header">
+        <div id="level_header">
+          <div id="level">Level: </div>
+          <div id="level_number">1</div>
+        </div>
+        <div id="score_header">
+          <div id="score">Score: </div>
+          <div id="score_number">0</div>
+        </div>
+        <div id="highscore_header">
+          <div id="highscore">Highscore: </div>
+          <div id="highscore_number">0</div>
+        </div>
+      </div>
+      <div id="game">
+        <div id="board">
+          <!-- <img src="src/image.gif" alt="mer-animée"> -->
+        </div>
+      </div>
+      <div id="footer"></div>
+      <div id="start_game" class="menu">
+        <div id="start_game_message">
+        </div>
+        <div class="button_new_game button">Nouveau Jeu</div>
+        <div class="instructions">
+          <p>Pour deplacer le bateau vous pouvez utiliser les touches <strong>DIRECTIONNELLES</strong></br>
+            Pour faire <strong>FEU</strong>, utiliser la touche <strong>ESPACE</strong></p>
+        </div>
+      </div>
+      <div id="end_game_loss">
+        <div id="button_return_init">Recommencer
+        </div>
+        <div id="button_cv_loss"><a href="src/CVDIWJS06.pdf" title="lien2 Cv" target="blank">Voir le CV</a></div>
+      </div>
+      <div id="end_game_win">
+        <div id="button_next_level">Niveau suivant</div>
+        <div id="button_cv_win" ><a href="src/CVDIWJS06.pdf" title="Lien Cv" target="blank">Voir le Cv</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="Formation">
+    <h3 class="titre" id="formationTitre">FORMATION ET COMPETENCES</h3>
+    <div><img src="./src/wanted_3.png" alt="wanted_3" id="wanted_3">
+      <p class="text" id="text_wanted_3">Formation Développeur full stack Javascript - IFOCOP Paris XI</p>
+    </div>
+    <div><img src="./src/wanted_4.png" alt="wanted_4" id="wanted_4">
+      <p class="text" id="text_wanted_4">Front-end : HTML5, CSS3, Javascript, JQUERY, AngularJS, Bootstrap </p>
+    </div>
+    <div><img src="./src/wanted_5.png" alt="wanted_5" id="wanted_5">
+      <p class="text" id="text_wanted_5">Back-end : Nodejs, Expressjs, MangoDB, Ajax</p>
+    </div>
+  </div>
+  <div style="clear:both;"></div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/Game.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/bubble.js"></script>
+  <script src="js/board.js"></script>
+  <script src="js/collision-detector.js"></script>
+  <script src="js/boat.js"></script>
+</body>
+
+</html>

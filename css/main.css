@@ -1,0 +1,398 @@
+* {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+body {
+  margin: 0 auto;
+  background-image: url('../src/map.jpg');
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  /*background: #FFECB3;*/
+  margin-top: 0;
+  line-height: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+#lien {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+#imageLienCv {
+  position: absolute;
+  left: 200px;
+}
+
+#imageLienLinkedin {
+  position: absolute;
+  left: 1100px;
+}
+
+#cv {
+  position: absolute;
+  top: 50px;
+  left: 490px;
+  float: left;
+  width: 200px;
+  height: 70px;
+  line-height: 70px;
+  background: #FFDD83;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#cv a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#linkedin {
+  position: absolute;
+  left: 790px;
+  top: 50px;
+  float: left;
+  width: 200px;
+  height: 70px;
+  line-height: 70px;
+  background: #FFDD83;
+  clear: both;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#linkedin a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#Experience {
+  width: 25%;
+  height: 700px;
+  float: left;
+  text-align: center;
+}
+
+#Experience>div {
+  /*height: 171px;*/
+  width: 320px;
+  margin-left: 30px;
+}
+
+#Experience>div>img {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+}
+
+#Formation {
+  float: left;
+  height: 700px;
+  width: 25%;
+  text-align: center;
+}
+
+#Formation>div {
+  /*height: 171px;*/
+  width: 320px;
+  margin-left: 30px;
+}
+
+#Formation>div>img {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+}
+
+.text {
+  display: none;
+}
+
+.titre {
+  display: none;
+}
+#centerPage{
+  float: left;
+  width: 50%;
+}
+#page {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  height: 700px;
+  /*overflow: hidden;*/
+}
+
+#header {
+  position: absolute;
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: #FFC107;
+  color: #fff;
+  align-items: stretch;
+}
+
+#level_header {
+  float: left;
+  font-size: 20px;
+  line-height: 70px;
+  margin-left: 30px;
+}
+
+#level {
+  /*float: left;*/
+  line-height: 35px;
+}
+
+#level_number {
+  /*float: left;*/
+  line-height: 35px;
+}
+
+#score_header {
+  float: left;
+  margin-left: 250px;
+  font-size: 20px;
+  line-height: 70px;
+}
+
+#score {
+  /*float: left;*/
+  line-height: 35px;
+}
+
+#score_number {
+  /*float: left;*/
+  line-height: 35px;
+}
+
+#highscore_header {
+  float: left;
+  margin-left: 230px;
+  font-size: 20px;
+  line-height: 70px;
+}
+
+#highscore {
+  /*float: left;*/
+  line-height: 35px;
+}
+
+#highscore_number {
+  /*float: left;*/
+  line-height: 35px;
+}
+
+#game {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  clip: auto;
+  overflow: hidden;
+}
+
+#board {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('../src/image.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  /*z-index: 1;*/
+}
+
+.bubbles_remaining {
+  position: absolute;
+  left: 700px;
+  top: 590px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: bold;
+  background-image: linear-gradient(#E0F2F1, #00796B);
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+  border-radius: 30px;
+}
+
+#footer {
+  position: absolute;
+  border-radius: 5px;
+  left: 0;
+  top: 650px;
+  width: 100%;
+  ;
+  height: 50px;
+  background: #FFB300;
+}
+
+.menu {
+  position: absolute;
+  left: 100%;
+  top: 200px;
+  height: 321px;
+  width: 900px;
+  background: url('../src/logo_start_onepiece.png') no-repeat;
+  background-size: 50%;
+  text-align: center;
+  display: none;
+}
+
+.button_new_game {
+  position: absolute;
+  left: 150px;
+  top: 200px;
+  height: 40px;
+  width: 150px;
+  color: #fff;
+  background: #FFD54F;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px #f99;
+}
+
+.instructions>p {
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  top: 250px;
+  left: 75px;
+  color: #fff;
+  background: #FFD54F;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.button_new_game:hover {
+  color: #000;
+}
+
+.button_option_game:hover {
+  color: #000;
+}
+
+#start_game {
+  display: block;
+}
+
+#end_game_loss {
+  position: absolute;
+  left: 120px;
+  top: 200px;
+  background: url('../src/game_over.png') no-repeat;
+  width: 550px;
+  height: 245px;
+  text-align: center;
+  display: none;
+}
+
+#button_return_init {
+  position: absolute;
+  left: 50px;
+  top: 250px;
+  height: 50px;
+  width: 150px;
+  color: #fff;
+  background: #FFD54F;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px #f99;
+}
+
+#button_cv_loss {
+  position: absolute;
+  left: 330px;
+  top: 250px;
+  height: 50px;
+  width: 150px;
+  color: #fff;
+  background: #FFD54F;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px #f99;
+}
+
+#button_cv_loss a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#end_game_win {
+  position: relative;
+  margin: auto;
+  top: 100px;
+  background: url('../src/win_min.png') no-repeat;
+  width: 500px;
+  height: 432px;
+  text-align: center;
+  display: none;
+}
+
+#button_next_level {
+  position: absolute;
+  left: 0;
+  top: 375px;
+  height: 50px;
+  width: 150px;
+  color: #fff;
+  background: #FFD54F;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px #f99;
+}
+
+#button_cv_win {
+  position: absolute;
+  left: 350px;
+  top: 375px;
+  height: 50px;
+  width: 150px;
+  color: #fff;
+  background: #FFD54F;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px #f99;
+}
+
+#button_cv_win a{
+  text-decoration: none;
+  color: #fff;
+}
+@@media query {}

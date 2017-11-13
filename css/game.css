@@ -1,0 +1,65 @@
+/*.bubble{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}*/
+
+.cur_bubble {
+  left: 205px;
+  top: 445px;
+}
+
+.bubble {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  background-image: url('../src/sprite_bubble_shooter.min.png');
+}
+
+.bubble_0 {
+  background-position: 0 0;
+}
+
+.bubble_1 {
+  background-position: -44px 0;
+}
+
+.bubble_2 {
+  background-position: -89px 0;
+}
+
+.bubble_3 {
+  background-position: -133px 0;
+}
+
+.bubble_4 {
+  background-position: -178px 0;
+}
+
+.bubble_5 {
+  background-position: 178px 0;
+}
+
+.bubble_6 {
+  background-position: 133px 0;
+}
+
+.bubble_7 {
+  background-position: 89px 0;
+}
+
+.bubble_8 {
+  background-position: 44px 0;
+}
+
+.boat {
+  background-image: url('../src/sunny.min.left.png');
+  background-size: 100%;
+  position: absolute;
+  left: 220px;
+  top: 400px;
+  width: 180px;
+  height: 155px;
+  overflow: hidden;
+  border-radius: 55px;
+}
